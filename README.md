@@ -1,28 +1,23 @@
 Here’s a **`README.md`** you can use for your Tic Tac Toe project (macOS + VS Code setup, two-player mode):
 
-```markdown
+
 # 🎮 Tic Tac Toe in C
 
 A simple console-based Tic Tac Toe game written in C.  
 It runs in the terminal, lets two players (X and O) take turns, and announces the winner or draw.
 
 ---
+```bash
+ ^^^^^^^^^^^^^^^^TIC TAC TOE^^^^^^^^^^^^^^^^
 
-## 📸 Screenshot
-```
+ | 1 | 2 | 3 |
 
-## ^^^^^^^^^^^^^^^^TIC TAC TOE^^^^^^^^^^^^^^^^
+ | 4 | X | 6 |
 
-## | 1 | 2 | 3 |
-
-## | 4 | X | 6 |
-
-## | 7 | 8 | 9 |
+ | 7 | 8 | 9 |
 
 Your step (O):
-
-````
-
+```
 ---
 
 ## 🚀 Features
@@ -39,9 +34,10 @@ Your step (O):
 - C compiler (Clang/GCC)
 
 On macOS, you can check if Clang is installed:
+
 ```bash
 clang --version
-````
+```
 
 If missing, install Command Line Tools:
 
